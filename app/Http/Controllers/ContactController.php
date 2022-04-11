@@ -2,41 +2,41 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-  
 
-    public function storeContactForm(Request $request)
+
+    public function storeContactForm(ContactRequest $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required',
-        ]);
+        try {
+            $created_data = [
+                'name' => $request->name,
+                'email' => $request->email,
+                'phone' => $request->phone,
+                'message' => $request->message,
+            ];
 
-        $input = $request->all();
+            // Start the transaction
+            DB::transaction(function () use ($created_data) {
+                // Save in DB :
+                ContactUs::create($created_data);
 
-        ContactUs::create($input);
+                // Send email :
+                // Mail::to('no_replay@alesayiholding.com')->send(new MailContactUs($created_data));
 
-        //  Send mail to admin
-        Mail::send('contactMail', array(
-            'name' => $input['name'],
-            'email' => $input['email'],
-            'subject' => $input['subject'],
-            'message' => $input['message'],
-        ), function($message) use ($request){
-            $message->from($request->email);
-            $message->to('haneenkhairi96@gmail.com', 'Admin')->subject($request->get('subject '));
-        });
 
-        return redirect()->back()->with(['success' => 'Contact Form Submit Successfully']);
+            });
+            return redirect()->back()->with('success', 'It has been sent successfully');
+        } catch (\Throwable $th) {
+          return $th;
+        }
+
     }
-
-
 
 }

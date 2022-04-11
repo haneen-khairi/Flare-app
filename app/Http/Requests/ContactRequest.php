@@ -31,7 +31,7 @@ class ContactRequest extends FormRequest
         ];
     }
 
-    public function messages()
+    public function message()
     {
         return [
             'name.required' => 'Name is required !!',

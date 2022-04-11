@@ -20,4 +20,9 @@ Route::get('/', function () {
 });
 
 
-Route::post('/ContactRequest', [ContactController::class, 'ContactRequest'])->name('ContactRequest');
+// Route::post('/', 'ContactController@storeContactForm');
+
+
+// Route::get('/', [ContactController::class, 'storeContactForm'])->name('contactUs');
+Route::post('/ContactRequest', [ContactController::class, 'storeContactForm'])->name('ContactRequest');
+
