@@ -540,7 +540,7 @@
                         <!-- Dream Dots -->
                         <span>Book Appointment Now!</span>
                         <h2 class="wow fadeInUp d-blue" data-wow-delay="0.3s">Contact With Us</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s"></p>
                     </div>
                 </div>
             </div>

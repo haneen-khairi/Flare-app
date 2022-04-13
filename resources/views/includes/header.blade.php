@@ -87,7 +87,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item  ">
-                        <a class="nav-link  " href="#home">Home</a>
+                        <a class="nav-link  " href="#home">@lang('main.home')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
@@ -104,6 +104,12 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" hidden></a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="{{ str_replace(app()->getLocale(),Lang::get('main.lang'),url()->full())  }}" class="nav-link"> {{ Lang::get('main.lang')}}   </a>
                     </li>
                 </ul>
             </div>

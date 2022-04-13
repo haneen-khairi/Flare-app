@@ -15,7 +15,7 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/{lang}/', function () {
     return view('welcome');
 });
 

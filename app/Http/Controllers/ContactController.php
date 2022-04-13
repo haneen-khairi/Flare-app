@@ -28,7 +28,7 @@ class ContactController extends Controller
                 ContactUs::create($created_data);
 
                 // Send email :
-                // Mail::to('no_replay@alesayiholding.com')->send(new MailContactUs($created_data));
+                // Mail::to('haneen@gmail.com')->send(new MailContactUs($created_data));
 
 
             });
