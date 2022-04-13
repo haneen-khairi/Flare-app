@@ -124,7 +124,7 @@
 <!-- All Plugins js -->
 <script src="{{ asset('js/plugins.js') }}"></script>
 <!-- script js -->
-<script src="{{ asset('js/script.js') }}"></script>
+<script src="{{ asset('js/'.app()->getLocale().'/script.js') }}"></script>
 <script>
     setTimeout(function() {
         $('.loader-bg').fadeToggle();

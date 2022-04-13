@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="@lang('main.aren')" dir="@lang('main.aren')">
 
 <head>
     <meta charset="UTF-8">
@@ -49,7 +49,7 @@
     <link rel="canonical" href="https://www.flaremarketing.net/" />
     <meta name="rating" content="RTA-5042-1996-1400-1577-RTA" />
     <!-- Title -->
-    <title>Flare Marketing | Creative Marketing Agency</title>
+    <title> @lang('main.title')</title>
 
     <!-- Favicon -->
 
@@ -59,7 +59,7 @@
     <link rel="icon" href="{{ asset('img/logo2.png') }}">
 
     <link rel="stylesheet" href="{{ asset('css/preload.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/'.app()->getLocale().'/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
 </head>
@@ -75,7 +75,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="banner">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><span><img src="{{ asset('img/logo2.png') }}" width="120"
+            <a class="navbar-brand" href="{{ url('/'.app()->getLocale()) }}"><span><img src="{{ asset('img/logo2.png') }}" width="120"
                         alt="Flare Marketing Agencies "></span> </a>
 
             <!-- Toggler/collapsibe Button -->
@@ -84,32 +84,32 @@
             </button>
 
             <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse nsvs" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item  ">
                         <a class="nav-link  " href="#home">@lang('main.home')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#about">@lang('main.about')</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#whyus">Why Us</a>
+                        <a class="nav-link" href="#whyus">@lang('main.why')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Service">Services</a>
+                        <a class="nav-link" href="#Service">@lang('main.services')</a>
                     </li>
                     <li class="nav-item  ">
-                        <a class="nav-link  " href="#test">Client</a>
+                        <a class="nav-link  " href="#test">@lang('main.client')</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">@lang('main.contact')</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="" hidden></a>
                     </li>
                     <li class="nav-item">
-                    <a href="{{ str_replace(app()->getLocale(),Lang::get('main.lang'),url()->full())  }}" class="nav-link"> {{ Lang::get('main.lang')}}   </a>
+                    <a href="{{ str_replace(app()->getLocale(),Lang::get('main.lang'),url()->full())  }}" class="nav-link"> @lang('main.lang')  </a>
                     </li>
                 </ul>
             </div>

@@ -16,14 +16,12 @@
                             <div class="promo-section">
                                 <!-- <h3 class="special-head cyan"> Flare Marketing</h3> -->
                             </div>
-                            <h1 class="bold wow fadeInUp b-text" data-wow-delay="0.2s">Your Digital Wingman!
+                            <h1 class="bold wow fadeInUp b-text" data-wow-delay="0.2s">@lang('main.section1t')
                             </h1>
-                            <h6 class="wow fadeInUp" data-wow-delay="0.3s">Flare Marketing is a creative agency,
-                                Supporting your company maximize its digital visibility, a strong reputation &
-                                prestigious digital presence that meets your business needs.</h6>
+                            <h6 class="wow fadeInUp" data-wow-delay="0.3s">@lang('main.section1b')</h6>
                             <div class="info-btn-group fadeInUp" data-wow-delay="0.4s">
                                 <!-- <a href="#" class="btn info-btn green-btn mr-3">get started</a> -->
-                                <a href="tel:00962790104394" class="btn info-btn green-btn mr-3">Contact Us</a>
+                                <a href="tel:00962790104394" class="btn info-btn green-btn mr-3">@lang('main.contactus')</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +55,7 @@
                                 colors="outline:#131432,primary:#ffffff,secondary:#eeaa66,tertiary:#faf9d1"
                                 style="width:150px;height:100px;">
                             </lord-icon>
-                            <h3 class="article__title">Commitment</h3>
+                            <h3 class="article__title">@lang('main.aboutust')</h3>
                             <p> </p>
                         </div>
                     </div>
@@ -68,7 +66,7 @@
                             <lord-icon src="https://cdn.lordicon.com/gqdnbnwt.json" trigger="loop"
                                 colors="primary:#242424,secondary:#f5a81c" style="width:150px;height:100px;">
                             </lord-icon>
-                            <h3 class="article__title">Courage</h3>
+                            <h3 class="article__title">@lang('main.courage') </h3>
                             <p> </p>
                         </div>
                     </div>
@@ -83,7 +81,7 @@
                             <lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop"
                                 colors="primary:#242424,secondary:#f5a81c" style="width:150px;height:100px;">
                             </lord-icon>
-                            <h3 class="article__title">Innovation</h3>
+                            <h3 class="article__title">@lang('main.innovation') </h3>
                             <p> </p>
                         </div>
                     </div>
@@ -93,7 +91,7 @@
                             <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json" trigger="loop"
                                 colors="primary:#242424,secondary:#f5a81c" style="width:150px;height:100px;">
                             </lord-icon>
-                            <h3 class="article__title">Loyalty</h3>
+                            <h3 class="article__title">@lang('main.loyalty') </h3>
                             <p> </p>
                         </div>
                     </div>
@@ -103,25 +101,18 @@
                 <div class="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
                     <div class="who-we-contant mt-s">
                         <div class="promo-section">
-                            <h3 class="special-head ">About Us</h3>
+                            <h3 class="special-head "> @lang('main.aboutua') </h3>
                         </div>
-                        <h4 class="bl-text fadeInUp" data-wow-delay="0.3s">Flare Values</h4>
-                        <h6 class="fadeInUp" data-wow-delay="0.4s">Flare Marketing is a creative agency
-                            implementing advanced marketing solutions in various industries, which has contributed
-                            to high competition levels and a strong reputation, resulting from our awesome team
-                            endeavoring to level up our clients' digital presence, which manifested into growing our
-                            clients base across the globe. </h6>
+                        <h4 class="bl-text fadeInUp" data-wow-delay="0.3s">  @lang('main.Flarevalues') </h4>
+                        <h6 class="fadeInUp" data-wow-delay="0.4s">  @lang('main.aboutusb')</h6>
                         <!-- <p class="fadeInUp" data-wow-delay="0.5s">We support your company’s digital presence by
                             increasing its visibility in search results on search engines, whether with Content
                             optimization or google ads.</p> -->
                         <div class="promo-section">
-                            <h3 class="special-head ">Our Values!</h3>
+                            <h3 class="special-head ">  @lang('main.ourvalue') </h3>
                         </div>
-                        <h4 class="bl-text fadeInUp" data-wow-delay="0.3s">Flare Values</h4>
-                        <h6 class="fadeInUp" data-wow-delay="0.4s">We endeavor to stimulate our employees’ careers
-                            with a
-                            comprehensive training program, to boost our environment with loyalty, commitment,
-                            innovation, and courage. </h6>
+                        <h4 class="bl-text fadeInUp" data-wow-delay="0.3s">  @lang('main.Flarevalues')</h4>
+                        <h6 class="fadeInUp" data-wow-delay="0.4s">  @lang('main.valueb') </h6>
                         <!-- <p class="fadeInUp" data-wow-delay="0.5s">We support your company’s digital presence by
                             increasing its visibility in search results on search engines, whether with Content
                             optimization or google ads.</p> -->
@@ -138,12 +129,12 @@
     <section class="creative-facts section-padding-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-12 col-sm-12">
                     <div class="who-we-contant">
                         <div class="promo-section">
-                            <h3 class="special-head ">Business Profile</h3>
+                            <h3 class="special-head "> @lang('main.valueb')Business Profile</h3>
                         </div>
-                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> Business we have worked with </h4>
+                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb') Business we have worked with </h4>
                         <p class="fadeInUp" data-wow-delay="0.4s"> </p>
                         <div class="services-block-four mt-30">
                             <div class="inner-box">
@@ -153,8 +144,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#">Holding Group </a></h3>
-                                <h3><a href="#">Tires </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Holding Group </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Tires </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -168,8 +159,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#">Beverages </a></h3>
-                                <h3><a href="#">Transportation </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Beverages </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Transportation </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -183,8 +174,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#">Distribution </a></h3>
-                                <h3><a href="#">Cans Making </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Distribution </a></h3>
+                                <h3><a href="#"> @lang('main.valueb')Cans Making </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -213,9 +204,9 @@
                 <div class="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
                     <div class="who-we-contant mt-s">
                         <div class="promo-section">
-                            <h3 class="special-head ">Welcome to Our Agency!</h3>
+                            <h3 class="special-head "> @lang('main.valueb')Welcome to Our Agency!</h3>
                         </div>
-                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s">Why Flare? </h4>
+                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb')Why Flare? </h4>
                         <p class="fadeInUp" data-wow-delay="0.4s"> </p>
                         <div class="list-wrap align-items-center">
                             <div class="row">
@@ -224,20 +215,20 @@
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="influencer marketing agency">
-                                        <h6 class="foot-c-info">Awesome Experienced & Skilled Team</h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Awesome Experienced & Skilled Team</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media agency">
-                                        <h6 class="foot-c-info">Vast Digital Experience.</h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Vast Digital Experience.</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon" alt="seo agency">
-                                        <h6 class="foot-c-info">A Strong Reputation & Prestigious Digital Presence Is
+                                        <h6 class="foot-c-info"> @lang('main.valueb')A Strong Reputation & Prestigious Digital Presence Is
                                             Our Aim.</h6>
                                     </div>
                                 </div>
@@ -245,35 +236,35 @@
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="branding agency">
-                                        <h6 class="foot-c-info">Flourishing Our clients By Strategic Approaches</h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Flourishing Our clients By Strategic Approaches</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media in marketing">
-                                        <h6 class="foot-c-info">Buzz-Marketing Methods</h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Buzz-Marketing Methods</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="digital marketing agency">
-                                        <h6 class="foot-c-info">Budget-Friendly Approach </h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Budget-Friendly Approach </h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media agency">
-                                        <h6 class="foot-c-info">Track Digital KPI’s</h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Track Digital KPI’s</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="creative agency">
-                                        <h6 class="foot-c-info">Longitudinal Knowledge Base </h6>
+                                        <h6 class="foot-c-info"> @lang('main.valueb')Longitudinal Knowledge Base </h6>
                                     </div>
                                 </div>
                             </div>
@@ -294,9 +285,9 @@
         <div class="container">
 
             <div class="section-heading text-center">
-                <span>Our Services</span>
-                <h2 class=" bold fadeInUp" data-wow-delay="0.3s">Our Services</h2>
-                <p class="fadeInUp" data-wow-delay="0.4s">Flare Digital Solutions </p>
+                <span> @lang('main.valueb')Our Services</span>
+                <h2 class=" bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb')Our Services</h2>
+                <p class="fadeInUp" data-wow-delay="0.4s"> @lang('main.valueb')Flare Digital Solutions </p>
             </div>
 
 
@@ -309,8 +300,8 @@
                             <img src="{{ asset('img/seo.png') }}" width="150" alt="SEO Search engin optimization">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold">SEO </h6>
-                            <p>We support your company’s digital presence by increasing its visibility in search results
+                            <h6 class=" bold"> @lang('main.valueb')SEO </h6>
+                            <p> @lang('main.valueb')We support your company’s digital presence by increasing its visibility in search results
                                 on search engines, whether with Content optimization or google ads.
                                 - SEO friendly Content
                                 - SEO audit
@@ -327,8 +318,8 @@
                             <img src="{{ asset('img/add.png') }}" width="150" alt="influencer marketing agency">
                         </div>
                         <div class="service-content">
-                            <h6 class="bold">Paid Social Advertising </h6>
-                            <p>Social Media users spend an average of 3 hours per day browsing their favorite platforms
+                            <h6 class="bold"> @lang('main.valueb')Paid Social Advertising </h6>
+                            <p> @lang('main.valueb')Social Media users spend an average of 3 hours per day browsing their favorite platforms
                                 We help your company to maximize its digital visibility, target your audience, and
                                 increase your reach on the most popular channels like Facebook, Google, YouTube,
                                 Instagram, LinkedIn, Twitter
@@ -344,18 +335,18 @@
                             <img src="{{ asset('img/web.png') }}" width="150" alt="service in marketing">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold">Web Development </h6>
-                            <p>Front - end web development
+                            <h6 class=" bold"> @lang('main.valueb')Web Development </h6>
+                            <p> @lang('main.valueb')Front - end web development
                                 <br>
-                                - Back - end web development.
+                                @lang('main.valueb') - Back - end web development.
                                 <br>
-                                - Full - stack web development.
+                                @lang('main.valueb')- Full - stack web development.
                                 <br>
-                                - Web designer.
+                                @lang('main.valueb') - Web designer.
                                 <br>
-                                - Web programmer.
+                                @lang('main.valueb') - Web programmer.
                                 <br>
-                                - Content developer
+                                @lang('main.valueb') - Content developer
                             </p>
                         </div>
                     </div>
@@ -368,16 +359,16 @@
                             <img src="{{ asset('img/creativeui.png') }}" width="150" alt="agency web design">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold">Branding & Creative Design </h6>
-                            <p>- UX/UI
+                            <h6 class=" bold"> @lang('main.valueb')Branding & Creative Design </h6>
+                            <p> @lang('main.valueb')- UX/UI
                                 <br>
-                                - Print Design
+                                @lang('main.valueb') - Print Design
                                 <br>
-                                - Identity
+                                @lang('main.valueb') - Identity
                                 <br>
-                                - Illustration
+                                @lang('main.valueb')- Illustration
                                 <br>
-                                - Photography/ Videography
+                                @lang('main.valueb')- Photography/ Videography
                             </p>
                         </div>
                     </div>
@@ -390,8 +381,8 @@
                             <img src="{{ asset('img/ui.png') }}" width="150" alt="strategy digital marketing">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold">UX/UI </h6>
-                            <p>Our Young Professionals work passionately to provide an innovative and exceptional user
+                            <h6 class=" bold"> @lang('main.valueb')UX/UI </h6>
+                            <p> @lang('main.valueb')Our Young Professionals work passionately to provide an innovative and exceptional user
                                 experience; our key focus is on designing digital products that meet client’s business
                                 needs while maintaining our high-end design standards.</p>
                         </div>
@@ -406,18 +397,18 @@
                             <img src="{{ asset('img/content.png') }}" width="150" alt="search engine marketers">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold">Content </h6>
-                            <p>- Content Marketing
+                            <h6 class=" bold"> @lang('main.valueb')Content </h6>
+                            <p> @lang('main.valueb')- Content Marketing
                                 <br>
-                                - Content Development
+                                @lang('main.valueb')- Content Development
                                 <br>
-                                - Content Creation
+                                @lang('main.valueb')- Content Creation
                                 <br>
-                                - Content Optimization
+                                @lang('main.valueb')- Content Optimization
                                 <br>
-                                - Email Marketing
+                                @lang('main.valueb')- Email Marketing
                                 <br>
-                                - Web content
+                                @lang('main.valueb')- Web content
                             </p>
                         </div>
                     </div>
