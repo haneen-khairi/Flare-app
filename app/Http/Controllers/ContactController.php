@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactRequest;
+use App\Mail\ContactUs as MailContactUs;
 use App\Models\ContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -19,6 +20,7 @@ class ContactController extends Controller
                 'name' => $request->name,
                 'email' => $request->email,
                 'phone' => $request->phone,
+                'subject' => $request->subject,
                 'message' => $request->message,
             ];
 
@@ -28,7 +30,7 @@ class ContactController extends Controller
                 ContactUs::create($created_data);
 
                 // Send email :
-                // Mail::to('haneen@gmail.com')->send(new MailContactUs($created_data));
+                Mail::to('support@flaremarketing.net')->send(new MailContactUs($created_data));
 
 
             });

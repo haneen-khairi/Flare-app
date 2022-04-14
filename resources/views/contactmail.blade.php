@@ -2,7 +2,7 @@
 
 
 
-You received an email from : {{ $name }} <br><br>
+You received an email from : {{ $data['name'] }} <br><br>
 
 
 
@@ -10,15 +10,15 @@ User details: <br><br>
 
 
 
-Name:  {{ $name }}<br>
+Name:  {{ $data['name'] }}<br>
 
-Email:  {{ $email }}<br>
+Email:  {{ $data['email'] }}<br>
 
-Phone:  {{ $phone }}<br>
+Phone:  {{ $data['phone'] }}<br>
 
-Subject:  {{ $subject }}<br>
+Subject:  {{ $data['subject'] }}<br>
 
-Message:  {!! $subject !!}<br><br>
+Message:  {!! $data['message'] !!}<br><br>
 
 
 

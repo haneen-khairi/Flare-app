@@ -132,9 +132,9 @@
                 <div class="col-lg-12 col-sm-12">
                     <div class="who-we-contant">
                         <div class="promo-section">
-                            <h3 class="special-head "> @lang('main.valueb')Business Profile</h3>
+                            <h3 class="special-head "> @lang('main.businesst1') </h3>
                         </div>
-                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb') Business we have worked with </h4>
+                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.businesst2') </h4>
                         <p class="fadeInUp" data-wow-delay="0.4s"> </p>
                         <div class="services-block-four mt-30">
                             <div class="inner-box">
@@ -144,8 +144,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#"> @lang('main.valueb')Holding Group </a></h3>
-                                <h3><a href="#"> @lang('main.valueb')Tires </a></h3>
+                                <h3><a href="#"> @lang('main.businesst3')  </a></h3>
+                                <h3><a href="#"> @lang('main.businesst4')  </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -159,8 +159,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#"> @lang('main.valueb')Beverages </a></h3>
-                                <h3><a href="#"> @lang('main.valueb')Transportation </a></h3>
+                                <h3><a href="#"> @lang('main.businesst5')  </a></h3>
+                                <h3><a href="#"> @lang('main.businesst6')  </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -174,8 +174,8 @@
                                         style="width:150px;height:100px">
                                     </lord-icon>
                                 </div>
-                                <h3><a href="#"> @lang('main.valueb')Distribution </a></h3>
-                                <h3><a href="#"> @lang('main.valueb')Cans Making </a></h3>
+                                <h3><a href="#"> @lang('main.businesst7')</a></h3>
+                                <h3><a href="#"> @lang('main.businesst8') </a></h3>
                                 <div class="text"> </div>
 
                             </div>
@@ -204,9 +204,9 @@
                 <div class="col-12 col-lg-6 offset-lg-0 col-md-10 offset-md-1">
                     <div class="who-we-contant mt-s">
                         <div class="promo-section">
-                            <h3 class="special-head "> @lang('main.valueb')Welcome to Our Agency!</h3>
+                            <h3 class="special-head "> @lang('main.aboutustt1') </h3>
                         </div>
-                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb')Why Flare? </h4>
+                        <h4 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.aboutustt2') </h4>
                         <p class="fadeInUp" data-wow-delay="0.4s"> </p>
                         <div class="list-wrap align-items-center">
                             <div class="row">
@@ -215,56 +215,55 @@
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="influencer marketing agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Awesome Experienced & Skilled Team</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt3') </h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Vast Digital Experience.</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt4') </h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon" alt="seo agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')A Strong Reputation & Prestigious Digital Presence Is
-                                            Our Aim.</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt5') </h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="branding agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Flourishing Our clients By Strategic Approaches</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt6') </h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media in marketing">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Buzz-Marketing Methods</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt7')</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="digital marketing agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Budget-Friendly Approach </h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt8')</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="social media agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Track Digital KPI’s</h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt9')</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="side-feature-list-item">
                                         <img src="{{ asset('img/check.png') }}" class="check-mark-icon"
                                             alt="creative agency">
-                                        <h6 class="foot-c-info"> @lang('main.valueb')Longitudinal Knowledge Base </h6>
+                                        <h6 class="foot-c-info"> @lang('main.aboutustt10')</h6>
                                     </div>
                                 </div>
                             </div>
@@ -285,9 +284,9 @@
         <div class="container">
 
             <div class="section-heading text-center">
-                <span> @lang('main.valueb')Our Services</span>
-                <h2 class=" bold fadeInUp" data-wow-delay="0.3s"> @lang('main.valueb')Our Services</h2>
-                <p class="fadeInUp" data-wow-delay="0.4s"> @lang('main.valueb')Flare Digital Solutions </p>
+                <span> @lang('main.servicest1') </span>
+                <h2 class=" bold fadeInUp" data-wow-delay="0.3s"> @lang('main.servicest2') </h2>
+                <p class="fadeInUp" data-wow-delay="0.4s"> @lang('main.servicest3')  </p>
             </div>
 
 
@@ -300,12 +299,11 @@
                             <img src="{{ asset('img/seo.png') }}" width="150" alt="SEO Search engin optimization">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold"> @lang('main.valueb')SEO </h6>
-                            <p> @lang('main.valueb')We support your company’s digital presence by increasing its visibility in search results
-                                on search engines, whether with Content optimization or google ads.
-                                - SEO friendly Content
-                                - SEO audit
-                                - Google ads Management
+                            <h6 class=" bold"> @lang('main.servicest4')  </h6>
+                            <p> @lang('main.servicest5') 
+                                @lang('main.servicest6')  
+                                @lang('main.servicest7') 
+                                @lang('main.servicest8') 
                             </p>
                         </div>
                     </div>
@@ -318,11 +316,8 @@
                             <img src="{{ asset('img/add.png') }}" width="150" alt="influencer marketing agency">
                         </div>
                         <div class="service-content">
-                            <h6 class="bold"> @lang('main.valueb')Paid Social Advertising </h6>
-                            <p> @lang('main.valueb')Social Media users spend an average of 3 hours per day browsing their favorite platforms
-                                We help your company to maximize its digital visibility, target your audience, and
-                                increase your reach on the most popular channels like Facebook, Google, YouTube,
-                                Instagram, LinkedIn, Twitter
+                            <h6 class="bold"> @lang('main.servicest9')  </h6>
+                            <p> @lang('main.servicest10')
                             </p>
                         </div>
                     </div>
@@ -335,18 +330,18 @@
                             <img src="{{ asset('img/web.png') }}" width="150" alt="service in marketing">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold"> @lang('main.valueb')Web Development </h6>
-                            <p> @lang('main.valueb')Front - end web development
+                            <h6 class=" bold"> @lang('main.servicest11') </h6>
+                            <p> @lang('main.servicest12')
                                 <br>
-                                @lang('main.valueb') - Back - end web development.
+                                @lang('main.servicest13') 
                                 <br>
-                                @lang('main.valueb')- Full - stack web development.
+                                @lang('main.servicest14')
                                 <br>
-                                @lang('main.valueb') - Web designer.
+                                @lang('main.servicest15') 
                                 <br>
-                                @lang('main.valueb') - Web programmer.
+                                @lang('main.servicest16') 
                                 <br>
-                                @lang('main.valueb') - Content developer
+                                @lang('main.servicest17')  
                             </p>
                         </div>
                     </div>
@@ -359,16 +354,16 @@
                             <img src="{{ asset('img/creativeui.png') }}" width="150" alt="agency web design">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold"> @lang('main.valueb')Branding & Creative Design </h6>
-                            <p> @lang('main.valueb')- UX/UI
+                            <h6 class=" bold"> @lang('main.servicest18')  </h6>
+                            <p> @lang('main.servicest19') 
                                 <br>
-                                @lang('main.valueb') - Print Design
+                                @lang('main.servicest20')  
                                 <br>
-                                @lang('main.valueb') - Identity
+                                @lang('main.servicest21')  
                                 <br>
-                                @lang('main.valueb')- Illustration
+                                @lang('main.servicest22') 
                                 <br>
-                                @lang('main.valueb')- Photography/ Videography
+                                @lang('main.servicest23') 
                             </p>
                         </div>
                     </div>
@@ -381,10 +376,8 @@
                             <img src="{{ asset('img/ui.png') }}" width="150" alt="strategy digital marketing">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold"> @lang('main.valueb')UX/UI </h6>
-                            <p> @lang('main.valueb')Our Young Professionals work passionately to provide an innovative and exceptional user
-                                experience; our key focus is on designing digital products that meet client’s business
-                                needs while maintaining our high-end design standards.</p>
+                            <h6 class=" bold"> @lang('main.servicest24')  </h6>
+                            <p> @lang('main.servicest25') </p>
                         </div>
                     </div>
 
@@ -397,18 +390,18 @@
                             <img src="{{ asset('img/content.png') }}" width="150" alt="search engine marketers">
                         </div>
                         <div class="service-content">
-                            <h6 class=" bold"> @lang('main.valueb')Content </h6>
-                            <p> @lang('main.valueb')- Content Marketing
+                            <h6 class=" bold"> @lang('main.servicest26')  </h6>
+                            <p> @lang('main.servicest27') 
                                 <br>
-                                @lang('main.valueb')- Content Development
+                                @lang('main.servicest28') 
                                 <br>
-                                @lang('main.valueb')- Content Creation
+                                @lang('main.servicest29') 
                                 <br>
-                                @lang('main.valueb')- Content Optimization
+                                @lang('main.servicest30') 
                                 <br>
-                                @lang('main.valueb')- Email Marketing
+                                @lang('main.servicest31') 
                                 <br>
-                                @lang('main.valueb')- Web content
+                                @lang('main.servicest32') 
                             </p>
                         </div>
                     </div>
@@ -423,9 +416,9 @@
     <div class="faq-timeline-area section-padding-0-85" id="faq">
         <div class="container">
             <div class="section-heading text-center">
-                <span>Important questions</span>
-                <h2 class="d-text bold fadeInUp" data-wow-delay="0.3s"> Team Experience FrameWork</h2>
-                <h6 class="fadeInUp" data-wow-delay="0.4s">Flare Team Experience</h6>
+                <span> @lang('main.teamt1') </span>
+                <h2 class="d-text bold fadeInUp" data-wow-delay="0.3s"> @lang('main.teamt2')  </h2>
+                <h6 class="fadeInUp" data-wow-delay="0.4s"> @lang('main.teamt3') </h6>
             </div>
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
@@ -438,33 +431,32 @@
                     <div class="info-faq-area mt-s ">
                         <dl style="margin-bottom:0">
                             <!-- Single FAQ Area -->
-                            <dt class="wave fadeInUp" data-wow-delay="0.2s">Relationships with Team Members
+                            <dt class="wave fadeInUp" data-wow-delay="0.2s"> @lang('main.teamt4') 
                             </dt>
                             <dd class="fadeInUp" data-wow-delay="0.3s">
-                                <h6>Trust, Respect, Inclusion, Open Communication, Team Activities, Collaboration, Alumni
-                                    Network, Young Professionals</h6>
+                                <h6> @lang('main.teamt5') </h6>
                             </dd>
                             <!-- Single FAQ Area -->
-                            <dt class="wave fadeInUp" data-wow-delay="0.3s">Professional Development</dt>
+                            <dt class="wave fadeInUp" data-wow-delay="0.3s"> @lang('main.teamt6') </dt>
                             <dd>
-                                <h6>Integration with team, trining, skills development, mentoring.</h6>
+                                <h6> @lang('main.teamt7') </h6>
                             </dd>
                             <!-- Single FAQ Area -->
-                            <dt class="wave fadeInUp" data-wow-delay="0.4s"> Financial Growth & Rewards</dt>
+                            <dt class="wave fadeInUp" data-wow-delay="0.4s">  @lang('main.teamt8') </dt>
                             <dd>
-                                <h6>Salary, Social Security, Health Insurance, Benefits.</h6>
+                                <h6> @lang('main.teamt9') </h6>
                             </dd>
                             <!-- Single FAQ Area -->
-                            <dt class="wave fadeInUp" data-wow-delay="0.5s">Performance Management</dt>
+                            <dt class="wave fadeInUp" data-wow-delay="0.5s"> @lang('main.teamt10') </dt>
                             <dd>
                                 <h6>
-                                    Planning, Coaching, Monitoring, Performance, Reviewing, Ongoing feedback.
+                                @lang('main.teamt11')  
                                 </h6>
                             </dd>
                             <!-- Single FAQ Area -->
-                            <dt class="wave fadeInUp" data-wow-delay="0.3s">Work-Life Balance</dt>
+                            <dt class="wave fadeInUp" data-wow-delay="0.3s">@lang('main.teamt12') </dt>
                             <dd>
-                                <h6>Scalable staffing, Time Off, Mental health initiatives, family-friendly culture.</h6>
+                                <h6> @lang('main.teamt13') </h6>
                             </dd>
                         </dl>
                     </div>
@@ -480,8 +472,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <span>Our Client</span>
-                        <h2 class="d-blue bold bl-text wow fadeInUp" data-wow-delay="0.3s">Loved By Our Clients</h2>
+                        <span> @lang('main.clientt1') </span>
+                        <h2 class="d-blue bold bl-text wow fadeInUp" data-wow-delay="0.3s">@lang('main.clientt2')  </h2>
                         <!-- <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo. </p> -->
                     </div>
@@ -529,8 +521,8 @@
                 <div class="col-12">
                     <div class="section-heading text-center">
                         <!-- Dream Dots -->
-                        <span>Book Appointment Now!</span>
-                        <h2 class="wow fadeInUp d-blue" data-wow-delay="0.3s">Contact With Us</h2>
+                        <span> @lang('main.contactt1') </span>
+                        <h2 class="wow fadeInUp d-blue" data-wow-delay="0.3s"> @lang('main.contactt2') </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.4s"></p>
                     </div>
                 </div>
@@ -540,6 +532,11 @@
             <!-- Contact Form -->
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8">
+                    @if(session()->has('success'))
+                    <div class="alert alert-success" role="alert">
+                        {{session('success')}}
+                    </div>
+                    @endif
                     <div class="contact_form">
                         <form action="{{ route('ContactRequest') }}" method="POST" >
                             @csrf
@@ -549,43 +546,69 @@
                                     <div class="group wow fadeInUp" data-wow-delay="0.2s">
 
                                         <input type="text" name="name" id="name" required>
-                                        @error('name') ( {{ $message }} ) @enderror
+                                         @error('name') 
+                                         <div class="text-danger">
+                                         {{ $message }} 
+                                        </div>
+                                        @enderror
                                         <span class="highlight"></span>
                                         <span class="bar"></span>
-                                        <label>Name</label>
+                                        <label> @lang('main.contactt3') </label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <div class="group wow fadeInUp" data-wow-delay="0.3s">
 
                                         <input type="text" name="email" id="email" required>
-                                        @error('email') ( {{ $message }} ) @enderror
+                                        @error('email') 
+                                        <div class="text-danger">
+                                         {{ $message }} 
+                                        </div>
+                                        @enderror
                                         <span class="highlight"></span>
                                         <span class="bar"></span>
-                                        <label>Email</label>
+                                        <label> @lang('main.contactt4') </label>
 
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                <div class="col-12 col-md-6">
+                                    <div class="group wow fadeInUp" data-wow-delay="0.4s">
+                                        <input type="text" name="phone" id="phone" required>
+                                        @error('phone') 
+                                        <div class="text-danger">
+                                         {{ $message }} 
+                                        </div>
+                                        @enderror
+                                        <span class="highlight"></span>
+                                        <span class="bar"></span>
+                                        <label> @lang('main.contacttphone') </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
                                     <div class="group wow fadeInUp" data-wow-delay="0.4s">
                                         <input type="text" name="subject" id="subject" required>
                                         @error('subject') ( {{ $message }} ) @enderror
                                         <span class="highlight"></span>
                                         <span class="bar"></span>
-                                        <label>Subject</label>
+                                        <label> @lang('main.contactt5') </label>
                                     </div>
                                 </div>
+                                
                                 <div class="col-12">
                                     <div class="group wow fadeInUp" data-wow-delay="0.5s">
                                         <textarea name="message" id="message" required></textarea>
-                                        @error('message') ( {{ $message }} ) @enderror
+                                        @error('message') 
+                                        <div class="text-danger">
+                                         {{ $message }} 
+                                        </div>
+                                        @enderror
                                         <span class="highlight"></span>
                                         <span class="bar"></span>
-                                        <label>Message</label>
+                                        <label> @lang('main.contactt6') </label>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">
-                                    <button type="submit" class="btn info-btn green-btn">Send Message</button>
+                                    <button type="submit" class="btn info-btn green-btn"> @lang('main.sendmessage') </button>
                                 </div>
                             </div>
                         </form>

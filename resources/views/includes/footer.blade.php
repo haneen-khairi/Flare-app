@@ -9,14 +9,13 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="text-left">
-                                <h3 class="g-text fadeInUp" data-wow-delay="0.3s">Get Your Quote or Call: (00962)
-                                    07 9010 4394</h3>
-                                <h2 class="bold w-text mb-0">Are You Ready? Book Appointment Now!</h2>
+                                <h3 class="g-text fadeInUp" data-wow-delay="0.3s">@lang('main.foot1') </h3>
+                                <h2 class="bold w-text mb-0">@lang('main.foot2') </h2>
                             </div>
                         </div>
                         <div class="col-12 col-lg-3">
                             <a class="btn info-btn more-btn mt-s fadeInUp" data-wow-delay="0.6s"
-                                href="tel:00962790104394">Call Us</a>
+                                href="tel:00962790104394">@lang('main.foot3') </a>
                         </div>
                     </div>
                 </div>
@@ -36,14 +35,12 @@
                                     <a href="#"><img src="{{ asset('img/logo2.png') }}" width="150"
                                             alt="Marketing Agency web developers"> </a>
                                 </div>
-                                <p>Flare Marketing is a creative agency implementing advanced marketing solutions in
-                                    various industries, which has contributed to high competition levels and a
-                                    strong reputation...</p>
+                                <p>@lang('main.foot4') </p>
                             </div>
                             <!-- Social Icon -->
                             <div class="footer-social-info fadeInUp" data-wow-delay="0.4s">
-                                {{-- <a href="https://www.facebook.com/Flare-Marketing-101788112385468/" target="_blank"><i
-                                        class="fa fa-facebook" aria-hidden="true"></i></a> --}}
+                                <!-- {{-- <a href="https://www.facebook.com/Flare-Marketing-101788112385468/" target="_blank"><i
+                                        class="fa fa-facebook" aria-hidden="true"></i></a> --}} -->
                                 <!-- <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -56,18 +53,18 @@
                         <div class="contact_info_area d-sm-flex justify-content-between">
                             <!-- Content Info -->
                             <div class="contact_info mt-x text-center fadeInUp" data-wow-delay="0.3s">
-                                <h5>PRIVACY</h5>
+                                <h5>@lang('main.foot5') </h5>
                                 <a href="index.html">
-                                    <p>Home</p>
+                                    <p>@lang('main.foot6') </p>
                                 </a>
                                 <a href="#">
-                                    <p>Terms & Conditions</p>
+                                    <p>@lang('main.foot7')  </p>
                                 </a>
                                 <a href="#">
                                     <p></p>
                                 </a>
                                 <a href="#">
-                                    <p>Privacy Policy</p>
+                                    <p>@lang('main.foot8') </p>
                                 </a>
 
 
@@ -79,20 +76,20 @@
                         <!-- Content Info -->
                         <div class="contact_info_area d-sm-flex justify-content-between">
                             <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
-                                <h5>CONTACT US</h5>
+                                <h5>@lang('main.foot9') </h5>
 
                                 <a href="">
-                                    <p>Mailing Address: Amman-Jordan</p>
+                                    <p>@lang('main.foot10') </p>
                                 </a>
                                 <a target="_blank"
                                     href="https://www.google.com/maps/place/Flare+Marketing/@32.0018774,35.8328202,15.52z/data=!4m19!1m13!4m12!1m4!2m2!1d35.8607108!2d31.9755846!4e1!1m6!1m2!1s0x151ca11188249d79:0x50b3f51ba7548be3!2sFlare+Marketing+location!2m2!1d35.8349998!2d32.0069637!3m4!1s0x151ca11188249d79:0x50b3f51ba7548be3!8m2!3d32.0069637!4d35.8349998">
-                                    <p>Flare Marketing, King Abdullah II St, Amman</p>
+                                    <p>@lang('main.foot11') </p>
                                 </a>
                                 <a href="tel:00962790104394" target="_blank">
-                                    <p>+962 07 9010 4394</p>
+                                    <p>@lang('main.foot12') </p>
                                 </a>
                                 <a href="mailto:fmubarak@flaremarketing.net" target="_blank">
-                                    <p>fmubarak@flaremarketing.net</p>
+                                    <p>@lang('main.foot13') </p>
                                 </a>
                             </div>
                         </div>

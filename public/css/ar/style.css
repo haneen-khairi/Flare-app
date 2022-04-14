@@ -4085,7 +4085,7 @@ textarea:required {
 }
 
 .contact_info_area .contact_info {
-    text-align: left !important;
+    text-align: right !important;
 }
 
 .contact_info_area .contact_info h5 {
@@ -5266,4 +5266,18 @@ body.light-version {
     position: relative;
     left: 0px;
 }
+}
+.footer-copywrite-info{
+    text-align: right;
+}
+
+.contact_info{
+    text-align: right!important;
+}
+.hero-section-content{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
 }

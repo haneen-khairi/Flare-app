@@ -7,16 +7,6 @@ use Illuminate\Foundation\Http\FormRequest;
 class ContactRequest extends FormRequest
 {
     /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
-     */
-    public function authorize()
-    {
-        return true;
-    }
-
-    /**
      * Get the validation rules that apply to the request.
      *
      * @return array
@@ -26,6 +16,7 @@ class ContactRequest extends FormRequest
         return [
             'name' => 'required',
             'email' => 'required|email',
+            'phone' => 'required|numeric',
             'subject' => 'required',
             'message' => 'required',
         ];
@@ -37,6 +28,7 @@ class ContactRequest extends FormRequest
             'name.required' => 'Name is required !!',
             'email.required' => 'Email is required !!',
             'email.email' => 'Invalid Email !!',
+            'phone.required' => 'Phone is required !!',
             'subject.required' => 'Subject is required !!',
             'message.required' => 'Message is required !!',
         ];
