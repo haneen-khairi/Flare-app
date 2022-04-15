@@ -78,20 +78,19 @@ return[
       'clientt2' => '',
   
       // team experiance
-      'teamt1' => 'Important questions',
-      'teamt2' => ' Team Experience FrameWork',
-      'teamt3' => 'Flare Team Experience',
-      'teamt4' => 'Relationships with Team Members',
-      'teamt5' => 'Trust, Respect, Inclusion, Open Communication, Team Activities, Collaboration, Alumni
-      Network, Young Professionals',
-      'teamt6' => 'Professional Development',
-      'teamt7' => 'Integration with team, trining, skills development, mentoring.',
-      'teamt8' => 'Financial Growth & Rewards',
-      'teamt9' => 'Salary, Social Security, Health Insurance, Benefits.',
-      'teamt10' => 'Performance Management',
-      'teamt11' => 'Planning, Coaching, Monitoring, Performance, Reviewing, Ongoing feedback.',
-      'teamt12' => 'Work-Life Balance',
-      'teamt13' => 'Scalable staffing, Time Off, Mental health initiatives, family-friendly culture.',
+      'teamt1' => 'أسئله مهمه',
+      'teamt2' => 'خبرات فريق العمل',
+      'teamt3' => 'خبرة موظفين فلير ',
+      'teamt4' => 'علاقة الموظفين',
+      'teamt5' => 'ثقة، احترام، تعاون، أنشطة رفاهية،',
+      'teamt6' => 'التطوير المهني',
+      'teamt7' => ' التكامل مع الفريق، تدريب، تطوير مهارات، توجيه',
+      'teamt8' => 'مزايا',
+      'teamt9' => 'ضمان اجتماعي، تأمين صحي، مزايا',
+      'teamt10' => 'إدارة الأداء',
+      'teamt11' => 'تخطيط، تدريب، توجيه، تقييم الأداء',
+      'teamt12' => 'توازن الحياة مع العمل',
+      'teamt13' => 'مبادرات الصحة النفسية، بيئة عمل صحية، اجازات عمل، العمل فقط في أوقات الدوام.',
   
       // about us
       'aboutustt1' => 'اهلا بكم لشركتنا!',
