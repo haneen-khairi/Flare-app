@@ -10,6 +10,7 @@
 
 ***/
 
+
 @import '../bootstrap.min.css';
 @import '../animate.css';
 @import '../owl.carousel.min.css';
@@ -17,8 +18,6 @@
 @import '../animated-headline.css';
 @import '../font-awesome.min.css';
 @import '../themify-icons.css';
-
-
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +25,8 @@
     box-sizing: border-box;
     direction: rtl;
 }
+
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -1156,7 +1157,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 }
 .special-head{
     color: #f5a81c  !important;
-    padding-left: 40px;
+    padding-right: 40px;
     font-size: 18px;
     position: relative;
 }
@@ -1165,7 +1166,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background: #f5a81c ;
     position: absolute;
     top: 50%;
-    left: 0;
+    right: 0;
     width: 30px;
     height: 2px;
 }
@@ -1697,6 +1698,9 @@ p.artficial:before{
 .who-we-contant h4 {
     margin-bottom: 20px;
     font-size: 30px;
+}
+.who-we-contant{
+    text-align: right;
 }
 
 .our-mission-area {
@@ -2546,7 +2550,9 @@ p.artficial:before{
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 .check-mark-icon {
     margin-right: 16px;
@@ -4893,6 +4899,7 @@ textarea:required {
     margin-bottom: 10px;
     color: #fff;
     font-weight: 500;
+    text-align:right;
 }
 .info-faq-area dt:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -4902,6 +4909,7 @@ textarea:required {
     margin: 0;
     padding: 15px 25px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: right;
 }
 
 
@@ -5246,15 +5254,15 @@ body.light-version {
     display: flex;
     justify-content: center;
 }
-.text-left{
+/* .text-left{
     text-align: right!important;
 }
 .text-right{
     text-align: left!important;
-}
+} */
 .nsvs{
-    position: relative;
-    left: -50%;
+    position: absolute;
+    left: 25px;
 }
 @media (max-width: 992px){
 .navbar-expand-lg.navbar-dark {
@@ -5262,10 +5270,10 @@ body.light-version {
     position: relative;
     right: 0px;
 }
-.nsvs {
+/* .nsvs {
     position: relative;
     left: 0px;
-}
+} */
 }
 .footer-copywrite-info{
     text-align: right;
@@ -5280,4 +5288,17 @@ body.light-version {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: space-around;
+}
+.haneen{
+    text-align:left!important;
+}
+.haneen-a{
+    display: flex;
+    margin-left:20px;
+    flex-direction: row-reverse;
+    
+    text-align: right;
+}
+.hh-a{
+    text-align: right!important;
 }

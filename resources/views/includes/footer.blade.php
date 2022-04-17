@@ -8,7 +8,7 @@
                 <div class="call-us-sec">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-9">
-                            <div class="text-left">
+                            <div class="text-left hh-a">
                                 <h3 class="g-text fadeInUp" data-wow-delay="0.3s">@lang('main.foot1') </h3>
                                 <h2 class="bold w-text mb-0">@lang('main.foot2') </h2>
                             </div>

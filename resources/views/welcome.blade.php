@@ -9,7 +9,7 @@
         <div class="hero-section-content">
 
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row haneen-a">
                     <!-- Welcome Content -->
                     <div class="col-12 col-lg-6 col-md-12">
                         <div class="welcome-content text-left">
@@ -130,7 +130,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-sm-12">
-                    <div class="who-we-contant">
+                    <div class="who-we-contant haneen">
                         <div class="promo-section">
                             <h3 class="special-head "> @lang('main.businesst1') </h3>
                         </div>
