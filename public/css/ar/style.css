@@ -5296,9 +5296,12 @@ body.light-version {
     display: flex;
     margin-left:20px;
     flex-direction: row-reverse;
-    
+
     text-align: right;
 }
 .hh-a{
+    text-align: right!important;
+}
+.text-left {
     text-align: right!important;
 }
